@@ -1,6 +1,7 @@
-@extends('layouts.app')
+<!-- @extends('layouts.app')
 
 @section('content')
+@endsection -->
 <div id="call-root" class="fixed bottom-4 right-4 w-80 h-48 bg-black text-white rounded shadow-lg overflow-hidden hidden">
     <div class="flex items-center justify-between p-2 bg-gray-900">
         <span class="text-sm">One-to-One Call</span>
@@ -28,7 +29,6 @@
         <button id="btn-decline" class="px-3 py-1 bg-red-600 text-white rounded">Decline</button>
     </div>
 </div>
-@endsection
 
 @push('scripts')
 <!-- NOTE: In your app, include Echo + Pusher (or websockets) JS as usual -->

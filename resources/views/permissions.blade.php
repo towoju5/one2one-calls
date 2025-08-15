@@ -1,6 +1,7 @@
-@extends('layouts.app')
+<!-- @extends('layouts.app')
 
 @section('content')
+@endsection -->
 <div class="container mx-auto py-6">
     <h1 class="text-2xl font-bold mb-4">Call Permission Manager</h1>
     @if(session('status'))
@@ -45,4 +46,3 @@
         {{ $users->links() }}
     </div>
 </div>
-@endsection
